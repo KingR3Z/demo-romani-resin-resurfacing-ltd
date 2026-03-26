@@ -45,12 +45,9 @@ export const client = {
     { before: "/images/drive-before.jpg", after: "/images/drive-after.jpg", label: "Driveway" },
   ] as { before: string; after: string; label: string }[],
   reviews: [
-    { name: "Sarah M.", rating: 5, text: "Absolutely fantastic work. Professional from start to finish. Couldn't recommend more highly.", date: "2 weeks ago", badge: "Local Guide" },
-    { name: "James T.", rating: 5, text: "Brilliant job. They understood exactly what we wanted and delivered beyond expectations.", date: "1 month ago" },
-    { name: "Karen D.", rating: 5, text: "Best in the area. Transformed our garden into something we're genuinely proud of.", date: "3 weeks ago", badge: "Local Guide" },
-    { name: "David R.", rating: 5, text: "From consultation to completion, everything was handled professionally. Fair pricing throughout.", date: "2 months ago" },
-    { name: "Emma W.", rating: 5, text: "Beautiful results. They delivered exactly what we asked for with a stunning finish.", date: "1 month ago" },
-    { name: "Paul H.", rating: 5, text: "Outstanding quality. Neighbours keep stopping to compliment the work. Highly recommended.", date: "3 weeks ago", badge: "Local Guide" },
+    { name: "Laura E", rating: 5, text: "We were really pleased with the excellent work that Romani Resin carried out for us.  Very hardworking team and very tidy in their work.  They did a fantastic job of our fencing, new patio and block paving.  We would not hesitate to recommend them to others and to use them again for future projects.", date: "a year ago" },
+    { name: "Grace", rating: 5, text: "Thank you very much it was a pleasure.", date: "a year ago" },
+    { name: "Matty Walker", rating: 5, text: "Brilliant set of lads!! Very polite, arrived on time, got the job done in the time they said they would, Garden looks mint.. highly recommended, thanks again chaps see you next time… ill get saving for my front garden doing as i do want that doing as well.", date: "a year ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
   seo: {
     title: "Romani Resin and Resurfacing Ltd | Professional Resin Surfacing in Bradford",
